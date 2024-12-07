@@ -1,4 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  /* background-color: rgb(56, 56, 56); */
+}
+
+body {
+  width: 320px;
+  height: 573px;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 25px;
+  margin-left: 80%;
+  margin-top: 8%;
+  position: relative;
 }

@@ -1,0 +1,26 @@
+.container_navbar {
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 290px;
+    height: 22px;
+}
+
+.hora {
+    background-color: white;
+    font-size: 12px;
+}
+
+.icon_line {
+    margin-left: 50px;
+}
+
+.icon_line .pi{
+    font-size: 50px;
+}
+
+.icons_inter {
+    /* border: 1px solid black; */
+    width: 80px;
+    justify-content: space-around;
+}

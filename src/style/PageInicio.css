@@ -1,0 +1,11 @@
+.container_principal {
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    margin: 10px;
+}
