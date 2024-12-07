@@ -8,6 +8,7 @@ import "./App.css";
 import PageInicio from "./pages/PageInicio";
 import Login from "./pages/Login";
 import Inicio from "./pages/Inicio";
+import DetalleClase from "./pages/DetalleClase";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/inicio" element={<Inicio />} />
+          <Route exact path="/detalleclase" element={<DetalleClase />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -1,0 +1,38 @@
+.shortcuts-container {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .shortcuts-container h3 {
+    margin-bottom: 10px;
+    font-size: 8px;
+    color: #333;
+    margin-right: 20px;
+  }
+  
+  .shortcuts-carousel {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto; /* Habilitar desplazamiento horizontal */
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+  }
+  
+  .shortcuts-carousel::-webkit-scrollbar {
+    display: none; /* Ocultar scrollbar para un diseño limpio */
+  }
+  
+  .shortcut-link {
+    color: rgb(79, 176, 255);
+    /* padding: 10px 20px; */
+    font-size: 8px;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  }
+  
+  .shortcut-link:hover {
+    background-color: #0056b3;
+  }
+  
